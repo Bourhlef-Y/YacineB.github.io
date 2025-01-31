@@ -283,3 +283,19 @@ a {
 a:hover {
     color: #a370f7;
 }
+
+.animate__animated.animate__fadeInUp {
+    animation-delay: 0.2s;
+}
+
+.animate__animated.animate__fadeInLeft {
+    animation-delay: 0.3s;
+}
+
+.animate__animated.animate__fadeInRight {
+    animation-delay: 0.3s;
+}
+
+.animate__animated.animate__zoomIn {
+    animation-delay: 0.2s;
+}
