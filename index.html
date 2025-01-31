@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -41,8 +43,14 @@
 
     <header class="py-5 text-center bg-primary text-white">
         <div class="container">
+            <div class="hero-content">
             <h1 class="display-4">Hi 👋, I'm Yacine</h1>
-            <p class="lead">A passionate Full Stack developer from France</p>
+                <p class="lead animate__animated animate__fadeInUp animate__delay-1s">A passionate Full Stack developer from France</p>
+                <div class="cta-buttons mt-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <a href="#projects" class="btn btn-light btn-lg me-3">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -59,11 +67,10 @@
                         <li>📫 How to reach me: <a href="mailto:bourhlef.yacine53@gmail.com">bourhlef.yacine53@gmail.com</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="row">
-
-                        <div class="col-md-4 d-flex align-items-center">
-                            <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="yacine-bourhlef" data-version="v1">
+                <div class="col-md-6" > 
+                    <div class="row" style="margin-left: 200px;">
+                        <div class="col-md-12" >
+                            <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="yacine-bourhlef" data-version="v1" >
                                 <a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/yacine-bourhlef?trk=profile-badge"></a>
                             </div>
                         </div>
@@ -76,16 +83,6 @@
     <section id="skills" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Skills and Tools</h2>
-            <div class="row mb-4">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Most Used Languages</h5>
-                            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bourhlef-y&theme=dark&show_icons=true&locale=en&layout=compact" alt="Most Used Languages by Bourhlef-Y" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-4">
@@ -95,6 +92,14 @@
                                 <div class="skill-item">
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" class="skill-icon">
                                     <span>C</span>
+                                </div>
+                                <div class="skill-item">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" class="skill-icon">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="skill-item">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" class="skill-icon">
+                                    <span>CSS</span>
                                 </div>
                                 <div class="skill-item">
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" class="skill-icon">
@@ -172,12 +177,8 @@
                                     <span>Firebase</span>
                                 </div>
                                 <div class="skill-item">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" class="skill-icon">
-                                    <span>Nginx</span>
-                                </div>
-                                <div class="skill-item">
-                                    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" class="skill-icon">
-                                    <span>Arduino</span>
+                                    <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" alt="vercel" class="skill-icon">
+                                    <span>Vercel</span>
                                 </div>
                             </div>
                         </div>
